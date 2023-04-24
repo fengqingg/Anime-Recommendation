@@ -23,7 +23,7 @@ As I am only interested in Anime series and not the other categories, anime with
 Content-Based Filtering (CBF) is a recommendation system that uses the characteristics of items, such as genre, to recommend similar items to users. To recommend anime to users based on their previous anime choices, CBF analyzes the genre of each anime and builds a model that can predict how likely a user is to enjoy an anime based on these features. This is done using the TF-IDF vectorizer to convert the list of genres for each anime into a feature matrix, and then using the cosine similarity metric to compute the similarity between each pair of anime based on their genre features. Finally, anime is recommended to a user based on their previous choices and the anime that are most similar to those they have enjoyed.
 
 <p align="center">
-<img width="952" alt="image" src="https://user-images.githubusercontent.com/85885666/234068341-b8bd2093-7122-4c09-8119-3c8bc289e10c.png">
+![image](https://user-images.githubusercontent.com/85885666/234068341-b8bd2093-7122-4c09-8119-3c8bc289e10c.png)
 </p>
 
 ## Collaborative Filtering (CF)
@@ -34,7 +34,7 @@ Content-Based Filtering (CBF) is a recommendation system that uses the character
 User-Based Collaborative Filtering (UBCF) is a technique used in recommendation systems that suggests items to users based on the similarity of their preferences to those of other users. UBCF analyzes the past behavior of users to identify those with similar preferences and uses a similarity metric such as cosine similarity or Pearson correlation coefficient to determine their similarity. UBCF then recommends items that similar users have enjoyed to the target user, assuming that users who have enjoyed similar items in the past are likely to enjoy similar items in the future. UBCF is an effective approach for building personalized recommendation systems that provide relevant suggestions to each user.
 
 <p align="center">
-  <img width="1050" alt="image" src="https://user-images.githubusercontent.com/85885666/234069019-2df7d3af-d472-4074-8aa9-c5a042176d1c.png">
+![image](https://user-images.githubusercontent.com/85885666/234069019-2df7d3af-d472-4074-8aa9-c5a042176d1c.png)
 </p>
 
 
